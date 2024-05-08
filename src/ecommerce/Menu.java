@@ -27,7 +27,8 @@ public class Menu {
 			System.out.println("            4 - Carrinho                             ");
 			System.out.println("            5 - Cupons                               ");
 			System.out.println("            6 - Deletar                              ");
-			System.out.println("            7-  Sair                                 ");
+			System.out.println("            7-  Categoria                            ");
+			System.out.println("            8-  Sair                                 ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("Entre com a opção desejada:                          ");
@@ -35,7 +36,7 @@ public class Menu {
 			
 			opcao = leia.nextInt();
 			
-			if (opcao == 7) {
+			if (opcao == 8) {
 				System.out.println("\nVolte Sempre!");
 				sobre();
 				leia.close();
@@ -65,6 +66,9 @@ public class Menu {
 				break;
 			case 6:
 				System.out.println("Deletar\n\n");
+			
+			case 7:
+				System.out.println("Categoria\n\n");
 
 			default:
 				System.out.println("\nOpção Inválida!\n");
